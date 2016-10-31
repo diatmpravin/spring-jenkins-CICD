@@ -1,5 +1,7 @@
 applications:
 - name: spring
+  buildpacks: java_buildpack
+  path: build/libs/gs-testing-web-0.1.0.jar
   instances: 1
   memory: 256M
   disk_quota: 512M
