@@ -1,0 +1,7 @@
+applications:
+- name: spring
+  instances: 1
+  memory: 256M
+  disk_quota: 512M
+  routes:
+  - route: spring.local.pcfdev.io
