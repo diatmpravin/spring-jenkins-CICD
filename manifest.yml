@@ -5,5 +5,6 @@ applications:
   instances: 1
   memory: 256M
   disk_quota: 512M
+  timeout: 180
   routes:
   - route: spring.local.pcfdev.io
